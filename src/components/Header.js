@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
   export default class Header extends Component {
   render() {
     return (
        <div className ='head'>
-         <h2> Ross Ludeke </h2>
+         <h4> Ross Ludeke </h4>
            <nav>
              <ul>
-             <li>Work</li>
-             <li>Bio</li>
-             <li>Contact</li>
+             <Link to ='/'><li>Home</li></Link>
+             <Link to ='/Apps'><li>Apps</li></Link>
+             <Link to ='/Bio'><li>Bio</li></Link>
+             <Link to ='/Contact'><li>Contact</li></Link>
              </ul>
            </nav>
        </div>
