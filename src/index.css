@@ -1,19 +1,86 @@
-.card {
-  width: 18rem;
-}
-.main{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 40rem;
-    background-image: url('https://imgur.com/MH76B86.jpg');
-    background-size: cover;
-    color: white;
+*{
+  margin: 0 auto;
+  font-weight: 100;
 }
 
-.projects {
-  display: flex;
-  justify-content: space-around;
-  padding: 40px 0;
+h2{
+  font-weight: 100;
+  margin: 0;
 }
+
+h1{
+  font-weight: 100;
+  margin: 0;
+}
+
+/*NAV and HEADER*/
+
+.head{
+  display: flex;
+  border: 1px solid;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+nav{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+}
+nav ul{
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+}
+li{
+  padding-right: 3rem;
+}
+
+
+
+/*MAIN*/
+
+
+.container{
+  flex-direction: column;
+  display: flex;
+  height: 100vh;
+  width: 100vh;
+  border: 1px solid;
+}
+
+
+.cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  height: 33%;
+
+}
+.title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+
+/*PROJECTS*/
+
+
+
+.box{
+
+}
+
+
+
+
+
+
+
