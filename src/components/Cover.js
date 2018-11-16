@@ -6,8 +6,7 @@ import { Link } from 'react-router-dom';
     return (
        <div className ='cover'>
          <div className ='title'>
-           <h1> Hi, I'm Ross and I enjoy making apps that connect people </h1>
-          <Link to ='/Apps'>Click to see my Applications</Link>
+          <Link to ='/Apps' className='link sub'>Click to see my Work</Link>
          </div>
        </div>
     )

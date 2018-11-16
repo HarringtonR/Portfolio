@@ -1,34 +1,36 @@
 *{
    margin: 0 auto;
-   font-weight: 100;
-   background-color: #303030;
-   color: white;
+   font-family: helvetica;
 }
 a{
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
 h4{
-  font-weight: 100;
   margin: 0;
   padding-left: 1rem;
 }
 
 h1{
-  font-weight: 100;
   margin: 0;
+  padding-bottom: 2rem;
 }
 
 
 /*NAV and HEADER*/
 
 .head{
+  color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-transform: uppercase;
   height: 100px;
   width: 100%;
+}
+head a:hover {
+  color: black;
 }
 nav{
   margin: 0;
@@ -43,8 +45,19 @@ nav ul{
   display: flex;
   list-style-type: none;
 }
-li{
-  padding-right: 1rem;
+
+.sub{
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.gitLink{
+  margin-left: 0;
+}
+.gitLink img{
+  padding-left: 2rem;
+  height: 30px;
 }
 
 
@@ -62,9 +75,12 @@ li{
   display: flex;
   align-items: center;
   justify-content: center;
-
   height: 100rem;
   height: 100vh;
+  background-image: url('https://imgur.com/vqOkGuf.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  width: 80%;
 }
 
 .title {
@@ -72,9 +88,9 @@ li{
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  max-width: 600px;
+  max-width: 700px;
+  font-size: 25px;
 }
-
 
 /*PROJECTS*/
 
@@ -126,4 +142,7 @@ li{
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+
+
 
