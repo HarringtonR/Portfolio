@@ -4,14 +4,15 @@
   import Apps from './Apps';
   import Contact from './Contact';
   import Bio from './Bio';
+  import Dropdown from './Dropdown.js'
   import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
   export default class Main extends Component {
   render() {
     return (
       <Router>
-           <main class="container">
-             <Header />
+           <main className="container">
+             <Dropdown/>
                <Switch>
                  <Route path ='/Contact' component={Contact} />
                  <Route path ='/Apps' component={Apps} />

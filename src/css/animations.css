@@ -7,26 +7,24 @@
   position:relative;
   vertical-align: middle;
   display: inline-block;
-  height: 60px;
   line-height: 60px;
   text-align: center;
   transition: 0.5s;
   padding: 0 20px;
   cursor: pointer;
   -webkit-transition:0.5s;
+  color: black;
 }
 
 .sub {
   position:relative;
   vertical-align: middle;
   display: inline-block;
-  height: 60px;
-  line-height: 60px;
   text-align: center;
   transition: 0.5s;
-  padding: 0 20px;
   cursor: pointer;
   -webkit-transition:0.5s;
+  color: black;
 }
 
 .link::before, .link::after {
@@ -40,17 +38,18 @@
   box-sizing: border-box;
   -webkit-transform: scale(0);
   transition: 0.5s;
+  color: black;
 }
 
 .sub::before {
-  border-bottom: 3px solid white;
-  border-left: 3px solid white;
+  border-bottom: 3px solid;
+  border-left: 3px solid;
   -webkit-transform-origin: 0 100%;
 }
 
 .sub::after {
-  border-top: 3px solid white;
-  border-right: 3px solid white;
+  border-top: 3px solid;
+  border-right: 3px solid;
   -webkit-transform-origin: 100% 0%;
 }
 

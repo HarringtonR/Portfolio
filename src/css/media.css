@@ -1,0 +1,43 @@
+@media only screen
+and (max-device-width : 414px){
+
+ .title {
+ margin-bottom: 10em;
+ width: 100%;
+ }
+ .cover{
+  width: 100%;
+ }
+
+ h1 {
+  font-size: 1.5em;
+  margin: 1em 0;
+ }
+.gitLink{
+  display: flex;
+}
+
+li{
+  line-height: 3em;
+  margin-left: 0;
+}
+
+.gitLink{
+  margin-left: .5em;
+}
+.well{
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: white;
+}
+.drop a{
+  margin-left: 0;
+}
+
+}
+
