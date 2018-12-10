@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
 import './css/media.css';
-import Main from './components/Main';
-
+import Cover from './components/Cover';
+import Header from './components/Header';
+import Apps from './components/Apps';
+import Bio from './components/Bio';
 
 class App extends Component {
   render() {
     return (
          <div>
-           <Main />
+           <Header />
+           <Cover />
+           <Apps />
+           <Bio />
         </div>
     );
   }

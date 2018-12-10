@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Collapse, Well } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+// import { Collapse, Well } from 'react-bootstrap';
 
 export default class Header extends Component {
   constructor(props, context) {
@@ -13,25 +12,13 @@ export default class Header extends Component {
   render() {
     return (
       <header>
-       <div className='click'>
-          <img onClick={() => this.setState({ open: !this.state.open })} src ='https://imgur.com/wueOqdC.jpg' alt='hamburger'/>
-        <Collapse in={this.state.open}>
-          <div>
-            <Well className='drop'>
-                   <Link to ='/' className='head link'><li>Home</li></Link>
-                   <Link to ='/Apps' className='head link'><li>Apps</li></Link>
-                   <Link to ='/Bio' className='head link'><li>Contact</li></Link>
-            </Well>
-          </div>
-        </Collapse>
-        </div>
-       <div className ='head'>
-         <div className='gitLink'>
-           <a href='https://github.com/HarringtonR'><img src='https://imgur.com/IwXZ4If.png' alt='beets'/></a>
-           <a href='https://www.linkedin.com/in/rossludeke/'><img src='https://imgur.com/NfjsRWC.png' alt='beets'/></a>
-         </div>
-     </div>
-
+          <ul>
+           <a href='#section1'><li>home</li></a>
+           <a href='#section2'><li>apps</li></a>
+           <a href='#section3'><li>bio</li></a>
+           <a href='https://github.com/HarringtonR'><li> git</li></a>
+           <a href='https://www.linkedin.com/in/rossludeke/'><li>linkedin</li></a>
+          </ul>
       </header>
     );
   }

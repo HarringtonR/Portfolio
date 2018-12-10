@@ -3,32 +3,37 @@
    export default class Apps extends Component {
      render() {
        return (
-        <div className ='apps'>
-          <h2 className='apptitle'> Applications</h2>
-            <div className ='row'>
-               <div className = 'boxImage'>
-                </div>
-              <div className='box'>
-                <h4> Instagram Recreation</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolore reprehenderit eos fugit quasi, inventore! Totam sapiente fuga dolorem laboriosam ducimus excepturi</p>
-              </div>
-            </div>
-            <div className ='row'>
-              <div className='box'>
-                 <h4> News + Chat </h4>
-                 <p>Lorem ipsum dolor sit amet, consectetur .</p>
+        <div className ='apps' id='section2'>
+          <h2 className='apptitle'> work</h2>
+          <img src='https://imgur.com/JfGQgE9.png' alt ='arrow'/>
+           <div className='container'>
+             <div className='box'>
+              <div className='images p1'>
                </div>
-                  <div className = 'boxImage2'>
-                </div>
-          </div>
-          <div className ='row'>
-                  <div className = 'boxImage3'>
-                </div>
-              <div className='box'>
-                <h4> The Replicant </h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolore reprehenderit eos fugit quasi, inventore.</p>
-              </div>
-            </div>
+               <p> www.findtrackdays.com</p>
+               <p> Website was buit to help people find tracks and events to go racing at</p>
+             </div>
+             <div className='box'>
+               <div className='images p2'>
+               </div>
+             </div>
+             <div className='box'>
+              <div className='images  p3'>
+               </div>
+             </div>
+             <div className='box'>
+              <div className='images  p4'>
+               </div>
+             </div>
+             <div className='box'>
+              <div className='images  p5'>
+               </div>
+             </div>
+             <div className='box'>
+              <div className='images p6'>
+               </div>
+             </div>
+           </div>
       </div>
        )
      }

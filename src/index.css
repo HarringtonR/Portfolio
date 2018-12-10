@@ -1,71 +1,54 @@
-
-*{
-   margin: 0 auto;
-   font-family: 'adam pro';
-   background-color: #F5F5F5;
-}
-a{
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
+html {
+  scroll-behavior: smooth;
 }
 
-h4{
+* {
+  margin: 0 auto;
+}
+
+p {
   margin: 0;
-  padding-bottom: 2rem;
 }
-
-h1{
-  font-size: 3.5em;
-  margin: .6em 0;
-  font-family: "adam pro"
-}
-
-
 
 /*NAV and HEADER*/
-header{
-  margin-top: 1em;
+header {
   display: flex;
+  background-color: rgb(0, 0, 0, .5);
+  position: fixed;
+  width: 100vw;
+  font-family: abel-regular;
+}
+
+ul {
   width: 100%;
-  justify-content: space-between;
-}
-.head{
   display: flex;
-  margin-right: 0;
-}
-.click{
-  margin-left: 0;
-  padding-left: 0;
-  position: absolute;
-}
-.click img{
-  padding-left: 1rem;
-  height: 30px;
-}
-.click img:hover{
-  opacity: .5;
-  transition: .5s;
-  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  height: 50px;
 }
 
-.sub{
-  font-size: 3rem;
-  text-transform: uppercase;
+li {
+
+  list-style-type: none;
+
 }
 
-.gitLink img{
-  padding-left: 1rem;
-  padding-right: 1rem;
-  height: 30px;
-}
-.gitLink img:hover {
-  /*transform: scale(1.3);*/
-  opacity: .5;
-  transition: .5s;
+a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
 }
 
-.well{
+header a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(0, 0, 0, .6);
+}
+
+/*.well{
   display: flex;
   flex-direction: column;
   width: 10em;
@@ -74,22 +57,18 @@ header{
   padding: 0;
   list-style-type: none;
   border: none;
-}
+}*/
 
-.drop a{
-  margin-left: 0;
-  color: black;
-  text-decoration: none;
-}
 /*MAIN*/
 
 
-.container{
+.container {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
   height: 100%;
   width: 100%;
-
 }
 
 
@@ -98,78 +77,103 @@ header{
   align-items: center;
   justify-content: center;
   height: 100vh;
-  width: 70%;
-  /*border: 1px solid;*/
+  width: 100vw;
+  background-image: url('https://imgur.com/Ip1XnjR.jpg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover a:hover {
+  text-decoration: none;
 }
 
 .title {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  text-align: center;
-  font-size: 2rem;
 }
+
+.title p {
+  /*font-weight: bold;*/
+}
+
 /*PROJECTS*/
-
-.apptitle{
+.apps {
+  background-color: #232323;
+  font-family: abel-regular;
+}
+.apps img{
+    display: flex;
+    width: 5%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+.apptitle {
   text-align: center;
-   padding-bottom: 3rem;
-   width: 100%;
-   margin: 2rem auto;
-}
-
-.row{
-  display: flex;
-  flex-direction: row;
   width: 100%;
-  border-bottom: 1px solid rgba( 0, 0, 0, .3);
-  padding: 2em;
+  color: white;
   margin: 0;
-
-}
-.box{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width:40%;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
 }
 
+.box {
+  width: 380px;
+  height: 370px;
+  margin: 1rem;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, .7);
+}
 
+.images {
+  border-radius: 10px;
+  height: 228px;
+  background-position: center bottom;
+}
 
-.boxImage{
-  height: 20rem;
-  width: 40%;
-  background-image: url('https://imgur.com/9AePzsO.jpg');
+.p1 {
+  background-image: url('https://imgur.com/l8auABG.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.p2 {
+  background-image: url('https://imgur.com/GEPX2Qv.gif');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.p3 {
+  background-image: url('https://imgur.com/SMbf9OE.gif');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.p4 {
+  background-image: url('https://imgur.com/25zVfvy.gif');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
+.p5 {
+  background-image: url('https://imgur.com/IiyipBb.gif');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-.boxImage2{
-  height: 20rem;
-  width: 40%;
-  background-image: url('https://imgur.com/5LcjhtY.jpg');
-  background-position: center;
+.p6 {
+  background-image: url('https://imgur.com/YubuAjk.jpg');
+  background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-
-
-.boxImage3{
-  height: 20rem;
-  width: 40%;
-  background-image: url('https://imgur.com/YSDM2MG.jpg');
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+@font-face {
+  font-family: 'abel-regular';
+  src: url('./abel-regular.ttf') format('truetype')
 }
-
-@font-face{
-  font-family: 'adam pro';
-  src: url('./ADAM.CG PRO.otf') format('opentype')
-}
-
-

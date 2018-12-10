@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 
   render() {
     return (
-       <div className ='cover'>
-        <Link to ='./Apps'>
+       <div className ='cover' id='section1'>
+        <a href='#section2'>
         <div className= 'title sub link'>
-           <h1> ROSS LUDEKE</h1>
-           <h1> /</h1>
-           <h1> WEB DEVELOPER</h1>
+           <p> ross ludeke &ensp;</p>
+           <p> / &ensp;</p>
+           <p> full stack developer </p>
          </div>
-       </Link>
+       </a>
     </div>
     )
   }
