@@ -17,14 +17,21 @@
   color: white;
   padding-top: 5rem;
   padding-bottom: 2rem;
+  margin: 0 auto;
 }
 .bio h4{
   color: white;
 }
-.bio img{
+.personal img{
   width: 20%;
   border-radius: 50%;
-  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+.arrow{
+    display: flex;
+    width: 5%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
 }
 .info{
   display: flex;
