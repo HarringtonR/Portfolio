@@ -16,6 +16,24 @@
 .bio h2{
   color: white;
   padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+.bio h4{
+  color: white;
+}
+.bio img{
+  width: 20%;
+  border-radius: 50%;
+  padding-bottom: 2rem;
+}
+.info{
+  display: flex;
+  margin: 0 auto;
+  color: white;
+  width: 50vw;
+}
+.personal{
+  padding-bottom: 5rem;
 }
 .skills{
   display: flex;
