@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom';
        <div className ='cover' id='section1'>
         <a href='#section2'>
         <div className= 'title sub link'>
-           <p> ross ludeke &ensp;</p>
-           <p> / &ensp;</p>
+           <p> ross ludeke </p>
+           <p> &ensp; / &ensp;</p>
            <p> full stack developer </p>
          </div>
        </a>
