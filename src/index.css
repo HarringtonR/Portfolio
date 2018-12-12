@@ -108,7 +108,9 @@ header a:hover {
   font-family: abel-regular;
   color: white;
 }
-
+.apps p{
+  font-size: 16px;
+}
 .apps img {
   display: flex;
   width: 5%;

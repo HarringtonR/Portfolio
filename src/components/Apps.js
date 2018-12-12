@@ -12,7 +12,7 @@
                </div>
                <div className='text'>
                  <h4> www.findtrackdays.com</h4>
-                 <p> FindTrackDays is a react application being buit as a simple go to resource for people find tracks and events to go racing.</p>
+                 <p> FindTrackDays is a react application being built as a simple go to resource for people to find tracks and events to go racing.</p>
                </div>
              </div>
              <div className='box'>
@@ -20,7 +20,7 @@
                </div>
                <div className='text'>
                  <h4> News&Chat</h4>
-                 <p>React application built to combine google news api and pushers chatkit so people have a new way of discussing current events. </p>
+                 <p>React application built to combine a google news api and pushers chatkit so people have a new way of discussing current events. </p>
                </div>
              </div>
              <div className='box'>
@@ -28,7 +28,7 @@
                </div>
                <div className='text'>
                  <h4> Instagram Remake</h4>
-                 <p> A group project in react to rebuild as much of instagram for fun.</p>
+                 <p> A team project rebuilting as much of Instagram as we could in a few days.</p>
                </div>
              </div>
              <div className='box'>
