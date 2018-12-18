@@ -134,11 +134,16 @@ header a:hover {
 .box {
   width: 380px;
   height: 370px;
-  margin: 1rem;
   border-radius: 10px;
   background-color: black;
 /*  background: rgba(0, 0, 0, .7);*/
 }
+.container a{
+  margin: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
 
 .images {
   border-radius: 10px;

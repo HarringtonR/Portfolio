@@ -29,7 +29,6 @@ import '../css/bio.css'
             <div className='skill post'>
            </div>
          </div>
-
        </div>
     )
   }
