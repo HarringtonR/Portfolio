@@ -57,7 +57,7 @@
                  </div>
                </div>
              </a>
-             <a className='box' href='https://herokuchatrandom.herokuapp.com/Home' target="_blank" rel="noopener noreferrer">
+             <a className='box' href='https://github.com/HarringtonR/react-native-weatherApp' target="_blank" rel="noopener noreferrer">
                <div className='box'>
                 <div className='images p6'>
                  </div>

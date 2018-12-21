@@ -41,6 +41,18 @@ a {
   height: 100%;
   width: 100%;
 }
+header a:visited {
+  color: white;
+  text-decoration: none;
+}
+header a:active {
+  color: white;
+  text-decoration: none;
+}
+header a:link {
+  color: white;
+  text-decoration: none;
+}
 
 header a:hover {
   text-decoration: none;
