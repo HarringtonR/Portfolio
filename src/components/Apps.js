@@ -7,17 +7,7 @@
           <h2 className='apptitle'> apps</h2>
           <img src='https://imgur.com/JfGQgE9.png' alt ='arrow'/>
            <div className='container'>
-             <a className='box' href='http://www.findtrackdays.com/'>
-             <div className='box'>
-              <div className='images p1'>
-               </div>
-               <div className='text'>
-                 <h4> www.findtrackdays.com</h4>
-                 <p> FindTrackDays is a react application being built as a simple go to resource for people to find tracks and events to go racing.</p>
-               </div>
-             </div>
-             </a>
-              <a className='box' href='https://chatapptestdeploy.herokuapp.com/'>
+              <a className='box' href='https://chatapptestdeploy.herokuapp.com/' target="_blank" rel="noopener noreferrer">
              <div className='box'>
                <div className='images p2'>
                </div>
@@ -27,7 +17,7 @@
                </div>
              </div>
              </a>
-              <a className='box' href='https://herokudeployfinsta.herokuapp.com/'>
+              <a className='box' href='https://herokudeployfinsta.herokuapp.com/' target="_blank" rel="noopener noreferrer">
              <div className='box'>
               <div className='images  p3'>
                </div>
@@ -37,7 +27,17 @@
                </div>
              </div>
             </a>
-             <a className='box' href='https://herokuchatrandom.herokuapp.com/'>
+            <a className='box' href='http://www.findtrackdays.com/' target="_blank" rel="noopener noreferrer">
+             <div className='box'>
+              <div className='images p1'>
+               </div>
+               <div className='text'>
+                 <h4> www.findtrackdays.com</h4>
+                 <p> FindTrackDays is a react application being built as a simple go to resource for people to find tracks and events to go racing.</p>
+               </div>
+             </div>
+             </a>
+             <a className='box' href='https://herokuchatrandom.herokuapp.com/' target="_blank" rel="noopener noreferrer">
                <div className='box'>
                 <div className='images  p4'>
                  </div>
@@ -47,7 +47,7 @@
                  </div>
                </div>
              </a>
-             <a className='box' href='https://harringtonr.github.io/the_replicant/'>
+             <a className='box' href='https://harringtonr.github.io/the_replicant/' target="_blank" rel="noopener noreferrer">
                <div className='box'>
                 <div className='images  p5'>
                  </div>
@@ -57,7 +57,7 @@
                  </div>
                </div>
              </a>
-             <a className='box' href='https://herokuchatrandom.herokuapp.com/Home'>
+             <a className='box' href='https://herokuchatrandom.herokuapp.com/Home' target="_blank" rel="noopener noreferrer">
                <div className='box'>
                 <div className='images p6'>
                  </div>

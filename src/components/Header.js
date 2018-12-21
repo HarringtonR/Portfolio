@@ -16,8 +16,8 @@ export default class Header extends Component {
            <a href='#section1'><li>home</li></a>
            <a href='#section2'><li>apps</li></a>
            <a href='#section3'><li>bio</li></a>
-           <a href='https://github.com/HarringtonR'><li> git</li></a>
-           <a href='https://www.linkedin.com/in/rossludeke/'><li>linkedin</li></a>
+           <a href='https://github.com/HarringtonR' target="_blank" rel="noopener noreferrer"><li> git</li></a>
+           <a href='https://www.linkedin.com/in/rossludeke/' target="_blank" rel="noopener noreferrer"><li>linkedin</li></a>
           </ul>
       </header>
     );
