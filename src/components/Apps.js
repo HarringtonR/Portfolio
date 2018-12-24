@@ -23,7 +23,7 @@
                </div>
                <div className='text'>
                  <h4> Instagram Remake</h4>
-                 <p> A team project rebuilting as much of Instagram as we could in a few days.</p>
+                 <p> A team project rebuilting as much of Instagram as we could in a few days. (Made to be viewed on mobile)</p>
                </div>
              </div>
             </a>
