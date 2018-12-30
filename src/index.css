@@ -113,7 +113,9 @@ header a:hover {
   /*font-weight: bold;*/
 
 }
-
+.text h4{
+  font-weight: 600;
+}
 /*PROJECTS*/
 .apps {
   background-color: #232323;
@@ -122,6 +124,7 @@ header a:hover {
 }
 .apps p{
   font-size: 16px;
+  font-weight: 400;
 }
 .apps img {
   display: flex;
