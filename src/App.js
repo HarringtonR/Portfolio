@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import './css/media.css';
 import Cover from './components/Cover';
 import Header from './components/Header';
