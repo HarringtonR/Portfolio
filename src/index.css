@@ -114,8 +114,10 @@ header a:hover {
 
 }
 .text h4{
-  text-align: center;
+  text-align: center;3
   font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 /*PROJECTS*/
 .apps {
@@ -150,7 +152,7 @@ header a:hover {
 .box {
   width: 380px;
   height: 370px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: black;
 /*  background: rgba(0, 0, 0, .7);*/
 }
@@ -162,7 +164,7 @@ header a:hover {
 
 
 .images {
-  border-radius: 10px;
+  border-radius: 5px;
   height: 228px;
   background-position: center bottom;
 }
