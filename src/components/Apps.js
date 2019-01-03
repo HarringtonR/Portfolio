@@ -32,7 +32,7 @@
               <div className='images p1'>
                </div>
                <div className='text'>
-                 <h4> www.findtrackdays.com</h4>
+                 <h4> Find Track Days< /h4>
                  <p> FindTrackDays is a react application being built as a simple go to resource for people to find tracks and events to go racing.</p>
                </div>
              </div>
