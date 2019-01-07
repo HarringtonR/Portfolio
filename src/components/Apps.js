@@ -53,7 +53,7 @@
                  </div>
                  <div className='text'>
                    <h4> The Replicant</h4>
-                   <p> Chose your own story game. Built using JS, CSS,   </p>
+                   <p> Chose your own story game. Built using JS, CSS, and HTML   </p>
                  </div>
                </div>
              </a>
