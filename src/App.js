@@ -7,6 +7,9 @@ import Bio from './components/Bio';
 
 class App extends Component {
   render() {
+    const API_KEY = process.env.REACT_APP_PORTFOLIO_API_KEY;
+    console.log(API_KEY)
+
     return (
          <div>
            <Header />
