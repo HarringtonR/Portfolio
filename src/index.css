@@ -110,10 +110,6 @@ header a:hover {
   /*background-color: rgba(0,0,0,.5);*/
 }
 
-.title p {
-  /*font-weight: bold;*/
-
-}
 .text h4{
   text-align: center;3
   font-weight: 600;
@@ -137,8 +133,28 @@ header a:hover {
   padding-bottom: 4rem;
 }
 
-.text {
-  padding: 1rem;
+.text{
+  display: none;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  margin: 0 auto;
+  padding: 0;
+}
+h4{
+  font-size: 3rem;
+}
+.text p{
+  font-size: 2rem;
+}
+.box:hover .text{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+}
+.box:hover .images{
+  opacity: .3;
+  filter: blur(3px);
 }
 
 .apptitle {
@@ -151,50 +167,49 @@ header a:hover {
 }
 
 .box {
-  width: 380px;
-  height: 370px;
-  border-radius: 5px;
-  background-color: black;
-/*  background: rgba(0, 0, 0, .7);*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+ /* background: rgba(0, 0, 0, .7); */
 }
 .container a{
-  margin: 1rem;
+  margin: 0;
   text-decoration: none;
   color: white;
 }
 
 
 .images {
-  border-radius: 5px;
-  height: 228px;
-  background-position: center bottom;
+  height: 400px;
 }
 
 .p1 {
-  background-image: url('https://imgur.com/ueQoUev.png');
-  background-position: bottom;
+  background-image: url('https://imgur.com/TMfQmgS.png');
   background-size: cover;
+  background-position-x:65%;
   background-repeat: no-repeat;
 }
 
 .p2 {
-  background-image: url('https://imgur.com/GEPX2Qv.gif');
+  background-image: url('https://imgur.com/dYtxhXg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .p3 {
-  background-image: url('https://imgur.com/SMbf9OE.gif');
-  background-position: bottom;
-  background-size: cover;
+  background-image: url('https://imgur.com/QG4PTtF.jpg');
+  background-position: top;
+  background-size: 100% auto;
+  background-position-y: 15%;
   background-repeat: no-repeat;
 }
 
 .p4 {
-  background-image: url('https://imgur.com/25zVfvy.gif');
+  background-image: url('https://imgur.com/r2oEdAe.jpg');
   background-position: center;
-  background-size: contain;
+  background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
@@ -206,13 +221,21 @@ header a:hover {
 }
 
 .p6 {
-  background-image: url('https://imgur.com/w2fUOTw.png');
-  background-position: bottom;
-  background-size: contain;
+  background-image: url('https://imgur.com/K1xhBAD.png');
+  background-position: top;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 @font-face {
   font-family: 'abel-regular';
   src: url('./abel-regular.ttf') format('truetype')
+}
+
+@media only screen
+and (max-device-width : 412px) {
+
+.box{
+  width: 100vw;
+}
 }
