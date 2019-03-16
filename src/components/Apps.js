@@ -8,6 +8,30 @@
           <img src='https://imgur.com/JfGQgE9.png' alt ='arrow'/>
            <div className='container'>
 
+             <a className='box' href='https://github.com/HarringtonR/NCnative' target="_blank" rel="noopener noreferrer">
+               <div className='box images p7' />
+               <div className='text'>
+                 <h4> React-Native News and Chat</h4>
+                 <p> News application making easy for everyone to talk about the recent news in story specific chatrooms</p>
+               </div>
+             </a>
+
+             <a className='box' href='http://nicholsonshardware.surge.sh/' target="_blank" rel="noopener noreferrer">
+               <div className='box images p8' />
+               <div className='text'>
+                 <h4> Nicholson Hardware</h4>
+                 <p> Freelance project converting dated website into modern React application</p>
+               </div>
+             </a>
+
+             <a className='box' href='https://herokuchatrandom.herokuapp.com/' target="_blank" rel="noopener noreferrer">
+               <div className='box images  p4' />
+               <div className='text'>
+                 <h4> ChatRoulette</h4>
+                 <p> I rebuilt ChatRoulette in React using SimpleWebRTC with a timer on the conversation for an added feature.</p>
+               </div>
+             </a>
+
               <a className='box' href='https://chatapptestdeploy.herokuapp.com/' target="_blank" rel="noopener noreferrer">
                 <div className='box images p2' />
                 <div className='text'>
@@ -32,14 +56,6 @@
                </div>
              </a>
 
-             <a className='box' href='https://herokuchatrandom.herokuapp.com/' target="_blank" rel="noopener noreferrer">
-               <div className='box images  p4'/>
-                 <div className='text'>
-                   <h4> ChatRoulette</h4>
-                   <p> I rebuilt ChatRoulette in React using SimpleWebRTC with a timer on the conversation for an added feature.</p>
-               </div>
-             </a>
-
              <a className='box' href='https://harringtonr.github.io/the_replicant/' target="_blank" rel="noopener noreferrer">
                <div className='box images  p5' />
                  <div className='text'>
@@ -54,6 +70,7 @@
                    <p> Simple react-native application giving both todays forcast and the 5 day.</p>
                  </div>
              </a>
+
            </div>
       </div>
        )

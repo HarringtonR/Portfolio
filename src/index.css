@@ -222,8 +222,20 @@ h4{
 }
 
 .p6 {
-  background-image: url('https://imgur.com/K1xhBAD.png');
+  background-image: url('https://imgur.com/x0si2H2.png');
   background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.p7 {
+  background-image: url('https://imgur.com/stDjT0i.png');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.p8 {
+  background-image: url('https://imgur.com/rwOSVp0.png');
+  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
 }
