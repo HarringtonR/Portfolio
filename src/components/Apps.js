@@ -28,7 +28,7 @@
                <div className='box images  p4' />
                <div className='text'>
                  <h4> ChatRoulette</h4>
-                 <p> I rebuilt ChatRoulette in React using SimpleWebRTC with a timer on the conversation for an added feature.</p>
+                 <p> Rebuild of ChatRoulette in React using SimpleWebRTC with a timer on the conversation for an added feature.</p>
                </div>
              </a>
 
@@ -43,7 +43,7 @@
               <a className='box' href='https://herokudeployfinsta.herokuapp.com/' target="_blank" rel="noopener noreferrer">
              <div className='box images p3' />
              <div className='text'>
-                 <h4> Instagram Remake</h4>
+                 <h4> Instagram React Build</h4>
                  <p> A team project in react, rebuilding as much of Instagram as we could in a few days. (Made to be viewed on mobile)</p>
                </div>
             </a>
