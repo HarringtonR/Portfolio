@@ -95,6 +95,7 @@ header a:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  transition: height 1000000s ease;
 }
 
 .cover a:hover {
@@ -159,7 +160,7 @@ h4{
 
 .apptitle {
   text-align: center;
-  width: 100%;
+  width: 100vw;
   color: white;
   margin: 0;
   padding-top: 5rem;

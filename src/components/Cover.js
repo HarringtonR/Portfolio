@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-  export default class Cover extends Component {
+export default class Cover extends Component {
 
   render() {
     return (
-       <div className ='cover' id='section1'>
+       <div className ='cover vh-for-mobile' id='section1'>
         <a href='#section2'>
         <div className= 'title sub link'>
            <p> ross ludeke </p>
