@@ -12,7 +12,7 @@
                <div className='box images p7' />
                <div className='text'>
                  <h4> React-Native News and Chat</h4>
-                 <p> News application making easy for everyone to talk about the recent news in story specific chatrooms</p>
+                 <p> News application making it easy for everyone to talk about the recent news in story specific chatrooms; React Native +   Firebase</p>
                </div>
              </a>
 
