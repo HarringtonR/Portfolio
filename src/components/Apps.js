@@ -47,14 +47,14 @@
                  <p> A team project in react, rebuilding as much of Instagram as we could in a few days. (Made to be viewed on mobile)</p>
                </div>
             </a>
-
+{/*
             <a className='box' href='http://findtrackdays.surge.sh/' target="_blank" rel="noopener noreferrer">
              <div className='box images p1' />
              <div className='text'>
                  <h4> Find Track Days</h4>
                  <p> FindTrackDays is a react application being built as a simple go to resource for people to find tracks and events to go racing.</p>
                </div>
-             </a>
+             </a> */}
 
              <a className='box' href='https://harringtonr.github.io/the_replicant/' target="_blank" rel="noopener noreferrer">
                <div className='box images  p5' />
