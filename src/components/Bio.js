@@ -8,7 +8,7 @@ import '../css/bio.css'
            <img className ='arrow' src='https://imgur.com/JfGQgE9.png' alt ='arrow'/>
            <div className='personal'>
              <img src='https://imgur.com/SUJ6qRC.jpg' alt='me' />
-             <p className='info'>Hi! I'm Ross, A former US Navy Rescue Swimmer turned Full Stack Web Developer. I make apps in react + react native and race motorcycles. I genuinely seek to work and live creatively pushing the scope of my experiences and hand on heart say I love what I do.</p>
+          <p className='info'>Software Engineer and former US Navy Rescue Swimmer with a background in web development, business management, and high-risk training. Now building applications in React and React Native while genuinely seeking to work and live creatively pushing the scope of my experiences and hand on heart say I love what I do.</p>
            </div>
            <h4>skills</h4>
          <div className='skills'>

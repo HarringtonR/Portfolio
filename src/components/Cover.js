@@ -9,7 +9,7 @@ export default class Cover extends Component {
         <div className= 'title sub link'>
            <p> ross ludeke </p>
            <p> &ensp; / &ensp;</p>
-           <p> full stack developer </p>
+           <p> software engineer </p>
          </div>
        </a>
     </div>
